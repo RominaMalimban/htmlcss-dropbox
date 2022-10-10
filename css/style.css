@@ -116,6 +116,11 @@ header .presentation{
 main{
     margin: 120px 0;
 }
+
+section{
+    margin: 100px 0;
+}
+
 .container{
     width: 60%;
     margin: 0 auto;
@@ -150,11 +155,14 @@ main section .invoicing{
 
 .box{
     width: calc(100% / 3 - 30px);
-    border: 1px solid black;
     margin: 0 15px;
     /* debug */
     min-height: 100%;
     /* background-color: coral; */
+}
+
+.box, .team{
+    border: 1px solid #5d5d5d;
 }
 
 .box span, .box a{
@@ -162,7 +170,7 @@ main section .invoicing{
 }
 
 .box-category, .bb1{
-    border-bottom: 1px solid rgb(93, 93, 93);
+    border-bottom: 1px solid #5d5d5d;
     text-align: center;
     padding: 5px 0;
 }
@@ -201,7 +209,6 @@ main .mb3{
 }
 
 .team{
-    border: 1px solid black;
     margin: 30px 0;
 }
 
@@ -214,7 +221,30 @@ main .mb3{
     justify-content: space-between;
 }
 
-.smaller-section{
+.bigger-section{
     width: 70%;
+    /* debug */
+    /* background-color: burlywood; */
 }
+
+.partner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner img{
+    padding-right: 40px;
+}
+
+.smaller-section{
+    width: 30%;
+    margin-top: 40px;
+}
+
+.btn.black{
+    border: 1px solid black;
+}
+
+
+
 /* regole footer */
