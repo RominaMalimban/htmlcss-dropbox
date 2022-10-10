@@ -131,7 +131,7 @@ main section .invoicing{
     display: inline-block;
 }
 
-.invoicing .blue-circle{
+.blue-item{
     color: blue;
 }
 
@@ -142,31 +142,62 @@ main section .invoicing{
 .box-container{
     display: flex;
     justify-content: space-between;
-    
+    margin: 0 -15px;
     /* debug */
     background-color: cornflowerblue;
-    height: 600px;
+    min-height: 900px;
 }
 
 .box{
     width: calc(100% / 3 - 30px);
     border: 1px solid black;
-    padding: 5px 15px;
     margin: 0 15px;
     /* debug */
-    height: 100%;
+    min-height: 100%;
     background-color: coral;
 }
 
-.box-container div:first-child{
-    margin-left: 0 ;
+.box span, .box a{
+    display: inline-block;
 }
 
-.box-container div:nth-child(3){
-    margin-right: 0;
+.box-category{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px 0;
 }
 
+.box-content{
+    padding: 20px 15px;
+}
 
+.mb1{
+    margin-bottom: 10px;
+}
+
+.mb2{
+    margin-bottom: 40px ;
+}
+
+.mb3{
+    margin-bottom: 25px ;
+}
+
+.gray{
+    color: gray;
+}
+
+.special{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.box hr{
+    display: block;
+    width: 40px;
+    margin: 40px 0;
+}
 
 
 
