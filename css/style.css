@@ -144,7 +144,7 @@ main section .invoicing{
     justify-content: space-between;
     margin: 0 -15px;
     /* debug */
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     min-height: 900px;
 }
 
@@ -154,7 +154,7 @@ main section .invoicing{
     margin: 0 15px;
     /* debug */
     min-height: 100%;
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .box span, .box a{
