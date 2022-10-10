@@ -162,7 +162,7 @@ main section .invoicing{
 }
 
 .box-category, .bb1{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(93, 93, 93);
     text-align: center;
     padding: 5px 0;
 }
