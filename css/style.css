@@ -131,9 +131,27 @@ main section .invoicing{
     margin-right: 30px ;
 }
 
-main .blue-circle{
-    color: blue;
+    /* debug - prova */
+    main .blue-circle{
+        color: blue;
+    }
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    /* debug */
+    background-color: cornflowerblue;
+    height: 600px;
 }
+
+.box{
+    width: calc(100% / 3);
+    padding: 0 10px;
+    /* debug */
+    height: 100%;
+    background-color: coral;
+}
+
 
 
 
