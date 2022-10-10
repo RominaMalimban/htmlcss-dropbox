@@ -10,10 +10,58 @@ body{
     font-size: 14px;
 }
 
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
 /* regole header */
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    /* debug */
+    border: 1px solid black;
+}
 
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.list-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+nav .space{
+    padding: 0 30px;
+}
 
+#nav-btn a{
+    margin: 0 5px;
+}
+nav .blue.btn{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
 /* regole main */
 
 
