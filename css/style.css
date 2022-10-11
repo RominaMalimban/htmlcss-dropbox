@@ -249,22 +249,22 @@ main .mb3{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 -10px;
+    margin: 0 -15px;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .card{
-    width: calc(100% / 3 - 20px);
-    margin: 30px 10px 0 10px;
+    width: calc(100% / 3 - 30px);
+    margin: 35px 15px 0 15px;
     /* debug */
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .card img{
     width: 100%;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* regole footer */
