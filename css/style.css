@@ -77,8 +77,11 @@ nav .space{
 
 .sub-header{
     margin-top: 60px;
-    background-color: rgb(186, 205, 240);
     height: 600px;
+}
+
+.bg-light{
+    background-color: #bacdf0;
 }
 
 .container-header{
@@ -114,12 +117,12 @@ header .presentation{
 /* regole main */
 
 main{
-    margin: 120px 0;
+    margin: 120px 0 0 0;
     /* debug */
-    background-color: rgba(100, 148, 237, 0.326);
+    /* background-color: rgba(100, 148, 237, 0.326); */
 }
 
-section{
+main section{
     margin: 100px 0;
 }
 
@@ -243,7 +246,11 @@ main .mb3{
     margin-top: 40px;
 }
 
-.btn.black{
+.btn.white{
+    background-color: white;
+}
+
+.black-border{
     border: 1px solid black;
 }
 
@@ -289,7 +296,6 @@ section .clients{
 
 .sponsor .square{
     width: 50%;
-    h
     /* debug */
     /* background-color: cornflowerblue; */
 }
@@ -309,4 +315,16 @@ section .clients{
 .red{
     background-color: red;
 }
+
+.bg-light h3{
+    color: rgb(141, 44, 44);
+}
+
+.free-trial{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+
 /* regole footer */
