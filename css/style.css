@@ -31,6 +31,9 @@ h4{
     font-size: 18px;
 }
 
+h5{
+    font-size: 16px;
+}
 /* regole header */
 nav{
     height: 60px;
@@ -84,10 +87,12 @@ nav .space{
     background-color: #bacdf0;
 }
 
-.container-header{
+.container-header, .container-footer{
     width: 70%;
     margin: 0 auto;
     padding: 50px 0;
+    /* debug */
+    border: 1px solid white;
 }
 
 .container-header h1{
@@ -344,5 +349,28 @@ section .clients{
 }
 
 
-
 /* regole footer */
+footer{
+    background-color: black;
+    color: white;
+    /* debug */
+    min-height: 300px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col ul{
+    margin: 30px 0 60px 0;
+}
+
+.container-footer div:first-child{
+    border-bottom: 1px solid white;
+}
+
+.footer-col li{
+    font-size: 12px;
+    padding: 5px 0;
+}
