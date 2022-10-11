@@ -305,7 +305,7 @@ main hr{
     /* border: 1px solid black; */
 }
 
-section .clients{
+section .clients, .free-trial h3{
     width: 40%;
 }
 
