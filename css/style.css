@@ -301,6 +301,7 @@ section .clients{
 
 .sponsor .square{
     width: 50%;
+    height: 253px;
     /* debug */
     /* background-color: cornflowerblue; */
 }
