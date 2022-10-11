@@ -178,22 +178,41 @@ main section .invoicing{
     /* background-color: coral; */
 }
 
-.box, .team{
-    border: 1px solid #5d5d5d;
+.box-content, .sub-section-1{
+    padding: 20px 15px;
 }
 
-.box span, .box a{
-    display: inline-block;
+.user{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0;
+}
+
+.user span, .user div{
+    display: block;
+    padding-left: 5px;
+}
+
+.user-description{
+    margin: 40px 0;
+}
+
+#different-mg{
+    margin: 60px 0 40px 0;
+}
+
+.underlined:link {
+    text-decoration: underline;
+}
+
+.box, .team{
+    border: 1px solid #5d5d5d;
 }
 
 .box-category, .bb1{
     border-bottom: 1px solid #5d5d5d;
     text-align: center;
     padding: 5px 0;
-}
-
-.box-content, .sub-section-1{
-    padding: 20px 15px;
 }
 
 .mb1{
@@ -381,13 +400,15 @@ section .clients{
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
+.faq.btop{
+    border-top: 1px solid black;
+}
+
 .faq span{
-    display: block;
-  
+    display: block; 
 }
 
 .faq .fa-angle-down{
