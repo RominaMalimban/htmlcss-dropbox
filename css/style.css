@@ -115,6 +115,8 @@ header .presentation{
 
 main{
     margin: 120px 0;
+    /* debug */
+    background-color: rgba(100, 148, 237, 0.326);
 }
 
 section{
@@ -267,4 +269,44 @@ main .mb3{
     /* border: 1px solid black; */
 }
 
+section .clients{
+    width: 40%;
+}
+
+.global-flex{
+    display: flex;
+    /* debug */
+    background-color: crimson;
+}
+
+.global-flex .sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    /* debug */
+    background-color: coral;
+}
+
+.sponsor .square{
+    width: 50%;
+    h
+    /* debug */
+    /* background-color: cornflowerblue; */
+}
+
+.green{
+    background-color: rgb(100, 206, 100);
+}
+
+.brown{
+    background-color: brown;
+}
+
+.light-blue{
+    background-color: rgb(37, 125, 203);
+}
+
+.red{
+    background-color: red;
+}
 /* regole footer */
