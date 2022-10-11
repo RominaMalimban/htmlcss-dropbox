@@ -34,6 +34,13 @@ h4{
 h5{
     font-size: 16px;
 }
+
+hr{
+    display: block;
+    margin: 40px 0;
+}
+
+
 /* regole header */
 nav{
     height: 60px;
@@ -212,10 +219,8 @@ main section .invoicing{
     text-align: center;
 }
 
-.box hr{
-    display: block;
+main hr{
     width: 40px;
-    margin: 40px 0;
 }
 
 .team{
@@ -292,35 +297,75 @@ section .clients{
 }
 
 .global-flex .sponsor{
-    display: flex;
-    flex-wrap: wrap;
     width: calc(100% / 3);
     /* debug */
-    background-color: coral;
+    /* background-color: coral; */
+}
+
+.global-flex .flex{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sponsor .square{
+    position: relative;
     width: 50%;
-    height: 253px;
-    /* debug */
-    /* background-color: cornflowerblue; */
+    height:calc(100vw / 6)
+    
 }
 
-.green{
-    background-color: rgb(100, 206, 100);
+.sponsor img{
+    width: 50%;
 }
 
-.brown{
-    background-color: brown;
+.sponsor.flex img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0) invert(1);
 }
 
-.light-blue{
-    background-color: rgb(37, 125, 203);
+.global-flex hr{
+    width: 100px;
 }
 
-.red{
-    background-color: red;
+.bg-gray span{
+    display: block;
+    margin: 40px 0 350px 0;
 }
+/* squares colors */
+    .green{
+        background-color: #64ce64;
+        border: 10px solid #9cfc9c;
+    }
+
+    .brown{
+        background-color: brown;
+    }
+
+    .light-blue{
+        background-color: rgb(37, 125, 203);
+    }
+
+    .red{
+        background-color: red;
+    }
+
+    .bg-gray{
+        background-color: rgb(231, 229, 229);
+        padding: 30px;
+        height: calc(100vw / 3);
+        overflow-y: auto;
+    }
+
+    .dark-blue{
+        background-color: rgb(2, 2, 62);
+    }
+
+    .yellow{
+        background-color: yellow;
+    }
 
 .bg-light h3{
     color: rgb(141, 44, 44);
