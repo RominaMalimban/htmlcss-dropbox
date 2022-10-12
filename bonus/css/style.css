@@ -215,10 +215,14 @@ main section .invoicing{
     margin: 40px 0 60px 0;
 }
 
-.underlined:link {
+.underlined {
+    color: #0000ff;
     text-decoration: underline;
 }
 
+.underlined:hover{
+    text-decoration: none;
+}
 .box-category, .bb1{
     border-bottom: 1px solid #949494;
     text-align: center;
