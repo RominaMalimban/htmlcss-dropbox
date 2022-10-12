@@ -58,14 +58,25 @@ nav{
 .nav-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.list-nav li, .nav-flex #nav-btn, .nav-flex #logo{
+    height: 100%;
+    line-height: 60px;
+}
+
+.nav-flex #logo{
+    padding: 10px 0;
 }
 
 .list-nav{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin: 0 20px;
+}
+
+.list-nav li:hover{
+    border-bottom: 1px solid #000;
 }
 
 nav .space{
