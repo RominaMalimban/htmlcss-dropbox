@@ -79,7 +79,7 @@ nav .space{
     padding: 5px;
 }
 
-.blue.btn{
+.blue{
     background-color: blue;
     border: 1px solid blue;
     color: white;
@@ -94,12 +94,11 @@ nav .space{
     background-color: #bacdf0;
 }
 
+
 .container-header, .container-footer{
     width: 70%;
     margin: 0 auto;
     padding: 50px 0;
-    /* debug */
-    /* border: 1px solid white; */
 }
 
 .container-header h1{
@@ -126,12 +125,23 @@ header .presentation{
     margin-top: 90px;
 }
 
+.mb1{
+    margin-bottom: 10px;
+}
+
+.mb2{
+    display: block;
+    margin-bottom: 40px;
+}
+
+.mb3{
+    margin-bottom: 25px ;
+}
+
 /* regole main */
 
 main{
     margin: 120px 0 0 0;
-    /* debug */
-    /* background-color: rgba(100, 148, 237, 0.326); */
 }
 
 main section, .last-section{
@@ -141,8 +151,6 @@ main section, .last-section{
 .container{
     width: 60%;
     margin: 0 auto;
-    /* debug */
-    /* border: 1px solid black; */
 }
 
 main section .invoicing{
@@ -165,17 +173,16 @@ main section .invoicing{
     display: flex;
     justify-content: space-between;
     margin: 0 -15px;
-    /* debug */
-    /* background-color: cornflowerblue; */
     min-height: 900px;
 }
 
 .box{
     width: calc(100% / 3 - 30px);
     margin: 0 15px;
-    /* debug */
-    min-height: 100%;
-    /* background-color: coral; */
+}
+
+.box, .team{
+    border: 1px solid #5d5d5d;
 }
 
 .box-content, .sub-section-1{
@@ -188,8 +195,11 @@ main section .invoicing{
     margin: 15px 0;
 }
 
-.user span, .user div{
+.user span{
     display: block;
+}
+
+.user span, .user div{
     padding-left: 5px;
 }
 
@@ -198,34 +208,17 @@ main section .invoicing{
 }
 
 #different-mg{
-    margin: 60px 0 40px 0;
+    margin: 40px 0 60px 0;
 }
 
 .underlined:link {
     text-decoration: underline;
 }
 
-.box, .team{
-    border: 1px solid #5d5d5d;
-}
-
 .box-category, .bb1{
     border-bottom: 1px solid #5d5d5d;
     text-align: center;
     padding: 5px 0;
-}
-
-.mb1{
-    margin-bottom: 10px;
-}
-
-.mb2{
-    display: block;
-    margin-bottom: 40px;
-}
-
-.mb3{
-    margin-bottom: 25px ;
 }
 
 .box-content .gray{
@@ -255,10 +248,13 @@ main hr{
     justify-content: space-between;
 }
 
+.smaller-section{
+    width: 30%;
+    margin-top: 40px;
+}
+
 .bigger-section{
     width: 70%;
-    /* debug */
-    /* background-color: burlywood; */
 }
 
 .partner{
@@ -268,11 +264,6 @@ main hr{
 
 .partner img{
     padding-right: 40px;
-}
-
-.smaller-section{
-    width: 30%;
-    margin-top: 40px;
 }
 
 .btn.white{
@@ -288,21 +279,15 @@ main hr{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 -15px;
-    /* debug */
-    /* border: 1px solid black; */
 }
 
 .card{
     width: calc(100% / 3 - 30px);
     margin: 35px 15px 0 15px;
-    /* debug */
-    /* background-color: coral; */
 }
 
 .card img{
     width: 100%;
-    /* debug */
-    /* border: 1px solid black; */
 }
 
 section .clients, .free-trial h3{
@@ -311,14 +296,10 @@ section .clients, .free-trial h3{
 
 .global-flex{
     display: flex;
-    /* debug */
-    background-color: crimson;
 }
 
 .global-flex .sponsor{
     width: calc(100% / 3);
-    /* debug */
-    /* background-color: coral; */
 }
 
 .global-flex .flex{
@@ -329,8 +310,7 @@ section .clients, .free-trial h3{
 .sponsor .square{
     position: relative;
     width: 50%;
-    height:calc(100vw / 6)
-    
+    height:calc(100vw / 6)   
 }
 
 .sponsor img{
@@ -353,7 +333,8 @@ section .clients, .free-trial h3{
     display: block;
     margin: 40px 0 350px 0;
 }
-/* squares colors */
+
+/* squares background colors */
     .green{
         background-color: #64ce64;
         border: 10px solid #9cfc9c;
@@ -424,6 +405,9 @@ footer{
 }
 
 .container-footer{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
     display: flex;
     justify-content: space-between;
 }
