@@ -75,8 +75,32 @@ nav{
     margin: 0 20px;
 }
 
-.list-nav li:hover{
+/* .list-nav li:hover{
     border-bottom: 1px solid #000;
+} */
+
+.menu li{
+    padding: 0 10px;
+}
+
+.menu li:hover {
+    background-color:#0000ff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.list-nav li:hover .sub-menu{
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    margin-left: -10px;
 }
 
 nav .space{
