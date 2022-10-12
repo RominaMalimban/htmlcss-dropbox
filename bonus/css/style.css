@@ -396,12 +396,17 @@ section .clients, .free-trial h3{
     border-top: 1px solid #000;
 }
 
-.faq span{
-    display: block; 
-}
-
 .faq .fa-angle-down{
     padding-right: 30px;
+}
+
+.faq-hover{
+    padding-top: 30px;
+    display: none;
+}
+
+.faq:hover .faq-hover{
+    display: block;
 }
 
 /* regole footer */
