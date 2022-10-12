@@ -148,6 +148,8 @@ nav .space{
 header .presentation{
     display: flex;
     justify-content: space-between;
+    /* debug */
+    /* background-color: #64ce64; */
 }
 
 .presentation-sx{
@@ -161,7 +163,7 @@ header .presentation{
 
 .presentation-sx #arrow{
     font-size: 30px;
-    margin-top: 90px;
+    margin-top: 65px;
 }
 
 .mb1{
@@ -245,10 +247,6 @@ main section .invoicing{
     margin: 40px 0;
 }
 
-#different-mg{
-    margin: 40px 0 60px 0;
-}
-
 .underlined {
     color: #0b0b67;
     text-decoration: underline;
@@ -257,6 +255,7 @@ main section .invoicing{
 .underlined:hover{
     text-decoration: none;
 }
+
 .box-category, .bb1{
     border-bottom: 1px solid #949494;
     text-align: center;
